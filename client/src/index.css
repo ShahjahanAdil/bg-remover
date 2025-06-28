@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Poppins;
+    src: url(./assets/fonts/Poppins.ttf)}
+
+*{
+    scroll-behavior: smooth;
+    font-family: "Poppins";
+}
+
+/* Universal Variab */
+
+:root{
+    --primary-color: #3571f4;
+    --secondary-color: #526cca;
+    --ter-color : #bedbff;
+    --tog-color : #1447E6;
+}
+
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 1.2rem;
+}
+
+h5{
+    font-size: 1rem;
+}
+
+h6{
+    font-size: 0.9rem;
+}
+
+p{
+    font-size: 16px;
+}
